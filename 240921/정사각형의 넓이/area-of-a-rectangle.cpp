@@ -6,10 +6,11 @@ int main() {
 
     cin>>n;
 
-    if(n>=5){
-        cout<<n*n;
-    }
-    else{
+
+        cout<<n*n<<endl;
+
+
+    if(n<5){
         cout<<"tiny";
     }
     return 0;
