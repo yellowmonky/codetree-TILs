@@ -6,7 +6,7 @@ int main() {
 
     cin>>n;
 
-    if(n<=5){
+    if(n>=5){
         cout<<n*n;
     }
     else{
