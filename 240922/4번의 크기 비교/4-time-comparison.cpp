@@ -6,32 +6,9 @@ int main() {
 
     cin>>a>>b>>c>>d>>e;
 
-    if(a>b){
-        cout<<"1"<<endl;
-    }
-    else{
-        cout<<"0"<<endl;
-    }
-
-    if(a>c){
-        cout<<"1"<<endl;
-    }
-    else{
-        cout<<"0"<<endl;
-    }
-
-    if(a>d){
-        cout<<"1"<<endl;
-    }
-    else{
-        cout<<"0"<<endl;
-    }
-
-    if(a>e){
-        cout<<"1"<<endl;
-    }
-    else{
-        cout<<"0"<<endl;
-    }
+    cout<<(a>b)<<endl;
+    cout<<(a>c)<<endl;
+    cout<<(a>d)<<endl;
+    cout<<(a>e)<<endl;
     return 0;
 }
