@@ -12,7 +12,7 @@ int main() {
     cin >> person1.age >> person1.sex;
     cin >> person2.age >> person2.sex;
 
-    if (person1.sex == 'M' || person2.sex == 'M') {
+    if ((person1.sex == 'M'&&person1.age>=19) || (person2.sex == 'M'&&person2.age>=19)) {
         cout << 1;
     }
     else cout<<0;
