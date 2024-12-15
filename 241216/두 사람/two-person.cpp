@@ -15,6 +15,7 @@ int main() {
     if (person1.sex == 'M' || person2.sex == 'M') {
         cout << 1;
     }
+    else cout<<0;
 
     return 0;
 }
