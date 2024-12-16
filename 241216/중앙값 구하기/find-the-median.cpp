@@ -6,21 +6,18 @@ int main() {
 
     cin >> a >> b >> c;
 
-    if(a<b){
-        if(b<c){
-            cout<<b;
-        }
-        else if(c<b){
-            cout<<c;
-        }
+    if((a<b && b<c)||(c<b && b<a)){
+        cout<<b;
     }
 
-    else if(b<a){
-        if(a<c) 
+    if((b<a && a<c) ||(c<a && a<b)){
         cout<<a;
-
-        else if(c<a) 
-        cout<<c;
     }
+
+    if((b<c && c<a)||(a<c && c<b)){
+       cout<<c;
+    }
+
+
     return 0;
 }
